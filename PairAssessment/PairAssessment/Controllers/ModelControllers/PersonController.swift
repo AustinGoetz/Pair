@@ -21,14 +21,14 @@ class PersonController {
     func addPerson(name: String) {
         let newPerson = Person(name: name)
         people.append(newPerson)
-        // Save to persistence
+        saveToPersistentStore()
     }
     
     // Delete
     func deletePerson(person: Person) {
         guard let indexOfPersonToDelete = people.firstIndex(of: person) else { return }
         people.remove(at: indexOfPersonToDelete)
-        // Save to persistence
+        saveToPersistentStore()
     }
     
     // MARK: - Persistence

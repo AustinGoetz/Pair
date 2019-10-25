@@ -14,6 +14,7 @@
 		2A5C735123635B3700D06641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C734F23635B3700D06641 /* LaunchScreen.storyboard */; };
 		2A5C735F23635C3000D06641 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C735E23635C3000D06641 /* Person.swift */; };
 		2A5C736123635CE600D06641 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C736023635CE600D06641 /* PersonController.swift */; };
+		2A5C73652363630D00D06641 /* RandomPersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C73642363630D00D06641 /* RandomPersonTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2A5C735223635B3700D06641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5C735E23635C3000D06641 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		2A5C736023635CE600D06641 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		2A5C73642363630D00D06641 /* RandomPersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPersonTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		2A5C735D23635B6B00D06641 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C73642363630D00D06641 /* RandomPersonTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				2A5C735F23635C3000D06641 /* Person.swift in Sources */,
 				2A5C734523635B3600D06641 /* AppDelegate.swift in Sources */,
 				2A5C734723635B3600D06641 /* SceneDelegate.swift in Sources */,
+				2A5C73652363630D00D06641 /* RandomPersonTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
